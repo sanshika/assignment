@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<head>
+<html lang="en">
+<title>my page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+  <div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+ <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand pull-left"  href="#" style="padding-left: 150px"><b>LOGO</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" style="padding-right: 200px">
+        <li><a href="#label" style="color: black;">LABEL</a></li>
+        <li><a href="#label" style="color: black;">LABEL</a></li>
+        <li><a href="#label" style="color: black;">LABEL</a></li>
+        <li><a href="#sign-in" style="color: black;"><button class="button button4 pull-right" style="background-color: #29b6f6"><enlarge>SIGN IN</enlarge></button></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="carousel-inner" role="listbox">
+     <div class="item active">
+    <img src="img/mount.jpg" alt="image" width="1200" height="700">
+    <div class="carousel-caption">
+     <h1>* Our Mission *</h1>
+     <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Loren Ipsum<br> has been the industry standard dummy text ever since the 1500</p>
+     </div>     
+     </div>
+
+</div>
+<div class="container-fluid" style="padding-bottom: 20px" >
+  <div class="container text-center" style="background-color: white">
+    <h1 class="text-center" style="color: #29b6f6"><b>About</b></h1>
+    <center><p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Loren Ipsum<br> has been the industry standard dummy text ever since the 1500</p>
+    
+    
+    </div>
+  </div>
+<div class="container-fluid text-center"  style="background-color: #29b6f6 ; color: white; padding-bottom: 35px">
+  <h1 style="padding-top: 20px">Team</h1>
+  <br>
+  <div class="container" style="padding-bottom: 5px">
+    <div class="col-sm-4">
+      
+      <a href="#demo" data-toggle="collapse" >
+        <img src="img/g1.jpg" class="img-circle person" alt="Random Name" width=100px; height=100px;>
+      </a>
+      <p class="text-center"><strong>jimmy</strong></p>
+      <p>Founder and CEO</p>
+    </div>
+    <div class="col-sm-4">
+      <a href="#demo2" data-toggle="collapse">
+        <img src="img/g2.jpg" class="img-circle person" alt="Random Name" width="55" height="55">
+      </a>
+      <p class="text-center"><strong>jenny</strong></p>
+      <p>Co-founder</p>
+    </div>
+    <div class="col-sm-4">
+      <a href="#demo3" data-toggle="collapse">
+        <img src="img/g3.jpg" class="img-circle person" alt="Random Name" width="55" height="55">
+      </a>
+      <p class="text-center"><strong>zoya</strong></p>
+      <p>Invester</p>
+    </div>
+  </div><br>
+  <button type="button" class="button button4 " style="color: white; background-color: #29b6f6;"><center>Work With Us</center></button>
+</div></div>
+</div>
+<div id="googleMap" style="width:100%;height:400px; "></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(28.644800,77.216721),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+ <footer class="container-fluid" style="background-color: black">
+ <a class="navbar-brand" href="#" style="color: white; padding-left: 200px" ><small>ABOUT</small></a>
+<a class="navbar-brand" href="#" style="color: white"><small>FAQ</small></a>
+<a class="navbar-brand" href="#" style="color: white"><small>WORK WITH US</small></a>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+      <p><span class="glyphicon glyphicon-envelope img-circle" style="padding-top:10px; color: yellow; font-size:25px; padding-right:150px; padding-top:15px"></span>
+    <a class="img-circle navbar-brand" href="#"><img src="img/Facebook.png" alt="fb" width="30px" ></a>
+    <a class="navbar-brand img-circle" href="#"><img src="img/Twitter.png" alt="Twitter" width="30px"></a>
+   </p>
+ </ul>
+</div>
+   <div id="horizontal-line"></div>
+   <div style="float: right; color: white"> <a href="#" style="color: white"> Privacy Policy |</a> <a href="#" style="color: white"> Terms & Condition |</a> © 2018 Copyright</div>
+</footer>  
+</body>
+</html>
